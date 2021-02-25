@@ -5,6 +5,15 @@
 /* https://www.nerdfonts.com/cheat-sheet  reference to find some other symbols*/
     /* some symbols you might like: פּ                  */
     /* fb44 this is the hex for nf-mdi-file_tree, should be good for class*/
+ 
+  "languageserver": {
+      "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  },
   "suggest.completionItemKindLabels": {
     "method": "  ",
     "function": "  ",
@@ -131,7 +140,6 @@
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
-
   /* "languageserver": { */
   /*   "lua": { */
   /*     "command": "/home/chris/.luambenvs/neovim4/bin/lua-lsp", */
